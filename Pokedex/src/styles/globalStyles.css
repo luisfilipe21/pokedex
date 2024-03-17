@@ -1,0 +1,45 @@
+@import "./reset.css";
+
+:root {
+  --color-grey-0: #15171a;
+  --color-grey-1: #2b2f33;
+  --color-grey-2: #ced4da;
+  --color-grey-3: #dbdee0;
+  
+  --color-star: rgba(255, 217, 0, 0.847);
+
+  --color-bug: #26de81;
+  --color-dragon: #ffeaa7;
+  --color-electric: #fed330;
+  --color-fairy: #ff0069;
+  --color-fighting: #30336b;
+  --color-fire: #f0932b; 
+  --color-flying: #81ecec;
+  --color-grass: #00b894;
+  --color-ground: #efb549;
+  --color-ghost: #a55eea;
+  --color-ice: #74b9ff;
+  --color-normal: #95afc0;
+  --color-poison: #a55eea;
+  --color-psychic: #a29bfe;
+  --color-rock: #2d3436;
+  --color-water: #0190ff;
+}
+
+.dark:root{
+  --color-grey-3: #15171a;
+  --color-grey-2: #2b2f33;
+  --color-grey-1: #ced4da;
+  --color-grey-0: #dbdee0;
+  
+  --color-star: rgba(255, 255, 0, 0.856);
+}
+
+
+
+body {
+  background-color: var(--color-grey-3);
+  font-family: "Poppins", sans-serif;
+  color: var(--color-grey-0);
+}
+
